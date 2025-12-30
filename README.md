@@ -25,28 +25,7 @@ Application e-commerce full-stack avec **pipeline de données en temps réel** p
 
 ## 🎯 Mon Rôle : Data Engineering avec Hadoop & Spark
 
-J'ai conçu et implémenté **l'infrastructure Big Data complète** de ShopNow+ :
-
-### 🏗️ Architecture HDFS (3 couches)
-
-```
-/user/spark/kafka_stream/
-├── brut/                          # Données brutes Kafka
-│   └── events/ → [Parquet]
-├── curated/                       # Données filtrées par type d'événement
-│   ├── view_product/
-│   └── add_to_cart/
-└── indicators/                    # KPIs finaux (dashboards)
-    ├── top_viewed_products/
-    ├── top_bought_products/
-    ├── daily_revenue/
-    ├── stock_alerts/
-    └── global_stats/
-```
-
-**Logique** : 3 étapes de transformation (brut → curated → indicateurs) pour maintenir données propres et traçabilité.
-
----
+J'ai conçu et implémenté **l'infrastructure Big Data** de ShopNow+ :
 
 ### ⚙️ Spark Jobs : Du Streaming au Batch
 
