@@ -1,9 +1,5 @@
 # 🏭 HADOOP_SPARK - E-Commerce Data Pipeline
 
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=300&fit=crop" width="100%" height="300" alt="Big Data Architecture">
-</div>
-
 ---
 
 ## 📌 Contexte
